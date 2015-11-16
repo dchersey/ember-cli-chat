@@ -115,8 +115,8 @@ GIT
 
 GIT
   remote: git@github.com:thoughtbot/ember-cli-rails.git
-  revision: 7e8cd937ea097b8ec36251a06d647405420e5a9a
-  branch: sd-underscore
+  revision: 24ceec1cd9ed28fdfa82c0b419928b5e1096f43a
+  branch: sd-register-on-initialize
   specs:
     ember-cli-rails (0.5.1)
       non-stupid-digest-assets (~> 1.0.0)
