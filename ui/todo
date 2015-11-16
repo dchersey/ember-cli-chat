@@ -1,0 +1,20 @@
+1. get chat client to work in ember, JS only.
+  learn how broccoli works
+2. add in notebook stuff to server and client; get that working over cable
+3. bring in the rest of the starter kit, so we can have admin ui. 
+4. Set up SSL server, sidekiq, everything we need for production api
+5. Bring back end in. Maybe even bring in the existing front end?
+6. Package it with thin, rpm
+7. Refactor the backend to separate tasks from packages, allow many:many for tasks and packages, cadences and targets, etc.
+8. Build new UI and connect up new API to serve it.
+
+
+
+Thoughts on task-centric agile
+  Should be able to easily indent to create subtasks; just like in text
+  Should be able to bundle tasks
+  Should be able to bundle bundles
+
+  Decorate bundles with acceptance criteria, etc
+  Relate bundles to each other (fixes_, depends_on, de_risks, learns_about, etc)
+

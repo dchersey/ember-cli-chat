@@ -1,0 +1,9 @@
+<%= render_ember_app :ui do |head| %>
+  <% head.append do %>
+
+    <%= csrf_meta_tags %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    
+  <% end %>
+<% end %>
