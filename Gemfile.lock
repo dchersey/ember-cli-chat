@@ -113,6 +113,16 @@ GIT
       railties (>= 4.0)
       sprockets-rails (>= 2.0, < 4.0)
 
+GIT
+  remote: git@github.com:thoughtbot/ember-cli-rails.git
+  revision: 7e8cd937ea097b8ec36251a06d647405420e5a9a
+  branch: sd-underscore
+  specs:
+    ember-cli-rails (0.5.1)
+      non-stupid-digest-assets (~> 1.0.0)
+      railties (>= 3.2, < 5)
+      sprockets (>= 2.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -124,10 +134,6 @@ GEM
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.0)
     debug_inspector (0.0.2)
-    ember-cli-rails (0.5.1)
-      non-stupid-digest-assets (~> 1.0.0)
-      railties (>= 3.2, < 5)
-      sprockets (>= 2.0)
     erubis (2.7.0)
     execjs (2.6.0)
     globalid (0.3.6)
@@ -185,7 +191,7 @@ DEPENDENCIES
   arel!
   byebug
   coffee-rails!
-  ember-cli-rails (~> 0.5.0)
+  ember-cli-rails!
   jbuilder (~> 2.0)
   jquery-rails
   puma

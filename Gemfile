@@ -36,7 +36,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'actioncable', github: 'rails/actioncable'
 gem 'puma'
 
-gem "ember-cli-rails", '~> 0.5.0'
+gem "ember-cli-rails", git: 'git@github.com:thoughtbot/ember-cli-rails.git', branch: 'sd-underscore'
 
 
 group :development, :test do
