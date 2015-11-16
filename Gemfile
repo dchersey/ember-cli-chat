@@ -33,7 +33,7 @@ gem 'jbuilder', '~> 2.0'
 # gem 'capistrano-rails', group: :development
 
 # Real-time
-gem 'actioncable', github: 'rails/actioncable'
+# gem 'actioncable', github: 'rails/actioncable'
 gem 'puma'
 
 gem "ember-cli-rails", '~> 0.5.0'
